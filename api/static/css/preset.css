@@ -57,7 +57,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Space Grotesk', sans-serif;
 }
 :root{
-    --theme-color: #ff790d;
+    --theme-color: #E3B33B;
+    
+    /*#ff790d;*/
 }
 a{
     color: var(--theme-color);
