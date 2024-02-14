@@ -38,7 +38,7 @@ def single_blog():
 
 @app.route('/team')
 def team():
-    """--Returns Texam--"""
+    """--Returns Team--"""
     return render_template('team.html')
 
 
