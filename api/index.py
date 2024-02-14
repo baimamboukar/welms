@@ -12,7 +12,7 @@ def welms():
     return render_template('index.html')
 
 
-@app.route('/members')
-def members():
-    """--Returns Memebexrs--"""
-    return render_template('team.html')
+# @app.route('/members')
+# def members():
+#     """--Returns Memebexrs--"""
+#     return render_template('team.html')
