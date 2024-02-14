@@ -44,5 +44,5 @@ def team():
 
 @app.route('/members')
 def members():
-    """--Returns Memebers--"""
+    """--Returns Memebexrs--"""
     return render_template('team.html')
