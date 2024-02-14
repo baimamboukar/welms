@@ -9,37 +9,7 @@ app = Flask(__name__)
 def abcrf():
     """--Returns index.html--"""
 
-    return render_template('index6.html')
-
-
-@app.route('/about')
-def about():
-    """--Returns About--"""
-    return render_template('about.html')
-
-
-@app.route('/partners')
-def partners():
-    """--Returns About--"""
-    return render_template('blog.html')
-
-
-@app.route('/blog_single')
-def blog_single():
-    """--Returns About--"""
-    return render_template('single-blog.html')
-
-
-@app.route('/single_blog')
-def single_blog():
-    """--Returns About--"""
-    return render_template('single-blog.html')
-
-
-@app.route('/team')
-def team():
-    """--Returns Team--"""
-    return render_template('team.html')
+    return render_template('index.html')
 
 
 @app.route('/members')
