@@ -34,3 +34,15 @@ def blog_single():
 def single_blog():
     """--Returns About--"""
     return render_template('single-blog.html')
+
+
+@app.route('/team')
+def team():
+    """--Returns Team--"""
+    return render_template('team.html')
+
+
+@app.route('/members')
+def members():
+    """--Returns Memebers--"""
+    return render_template('team.html')
